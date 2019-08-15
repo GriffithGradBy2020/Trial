@@ -18,31 +18,32 @@ def find(word, words, seen, target, path):
   if len(list) == 0:
     return False
   list = sorted([(same(w, target), w) for w in list])
+
   for (match, item) in list:
-    if match >= len(target) - 1:
-      if match == len(target) - 1:
-         path.append(item)
-      return True
+    if match >= len(target) - 1 and match == len(target) - 1:
+        if match < len(target):
+          path.append(item)
+        #use another list instead of path
+        return True
     seen[item] = True
   for (match, item) in list:
     path.append(item)
-    #print(match,item)
     if find(item, words, seen, target, path):
       return True
     path.pop()
 
-fname = input("Enter dictionary name: ")
-file = open(fname)
+
+#fname = input("Enter dictionary name: ")
+file = open("dictionary.txt")
 lines = file.readlines()
-while True:
-  start = input("Enter start word:")
-  words = []
-  for line in lines:
-    word = line.rstrip()
-    if len(word) == len(start):
-      words.append(word)
-  target = input("Enter target word:")
-  break
+
+start = input("Enter start word:")
+words = []
+for line in lines:
+  word = line.rstrip()
+  if len(word) == len(start):
+    words.append(word)
+target = input("Enter target word:")
 
 count = 0
 path = [start]
