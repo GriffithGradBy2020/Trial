@@ -32,11 +32,20 @@ def find(word, words, seen, target, path):
       return True
     path.pop()
 
+def initInput():
+  temp = True
+  while temp is True:
+    initial = input("Enter dictionary name: ")
+    try:
+      file = open(initial)
+      temp = False
+      return file
+    except FileNotFoundError:
+      print("Not a file. Input a correct file")
 
-#fname = input("Enter dictionary name: ")
-file = open("dictionary.txt")
+
+file = initInput()
 lines = file.readlines()
-
 start = input("Enter start word:")
 words = []
 for line in lines:
