@@ -5,7 +5,7 @@ def same(item, target):
 def build(pattern, words, seen, list):
   return [word for word in words
                  if re.search(pattern, word) and word not in seen.keys() and
-                    word not in list]
+                    word if not list]
 
 def find(word, words, seen, target, path):
   list = []
@@ -26,8 +26,8 @@ def find(word, words, seen, target, path):
       return True
     path.pop()
 
-fname = input("Enter dictionary name: ")
-file = open(fname)
+#fname = input("Enter dictionary name: ")
+file = open("dictionary.txt")
 lines = file.readlines()
 while True:
   start = input("Enter start word:")
