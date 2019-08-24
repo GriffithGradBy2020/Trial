@@ -140,7 +140,7 @@ file = fileInput(initial)
 lines = file.readlines()
 initialStart = input("Enter start word:")
 initialTarget = input("Enter target word:")
-if startInput(initialStart)==True and targetInput(initialStart)==True and matchingInput(initialStart,initialStart)==True:
+if startInput(initialStart)==True and targetInput(initialTarget)==True and matchingInput(initialStart,initialTarget)==True:
   start = initialStart
   target = initialTarget
 else:

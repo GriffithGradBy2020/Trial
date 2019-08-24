@@ -14,12 +14,12 @@
     <window id="2">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="false">
               <entry file="file://E:/Downloads/test_final (2).py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="391">
-                    <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+                  <state relative-caret-position="425">
+                    <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
                     <folding>
                       <element signature="e#0#15#0" expanded="true" />
                     </folding>
@@ -30,7 +30,7 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://E:/Downloads/test (1).py">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="588">
+                  <state relative-caret-position="856">
                     <caret line="97" selection-start-line="97" selection-end-line="97" />
                   </state>
                 </provider>
@@ -42,21 +42,21 @@
     </window>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-799">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="520">
+              <caret line="141" column="43" selection-start-line="141" selection-start-column="43" selection-end-line="141" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_final.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -81,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/tester.py" />
         <option value="E:/Downloads/test (1).py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/test_final.py" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -97,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +108,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_final.py">
+  <component name="RunManager" selected="Python.test">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="softwareTech-Assignment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,8 +208,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_final.py" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Unittests in test_final.py" />
         <item itemvalue="Python tests.Unittests for test_final.TestFinal.test_matchingInput" />
         <item itemvalue="Python tests.Unittests for test_final.TestFinal.test_targetInput" />
         <item itemvalue="Python tests.Unittests for test_final.TestFinal.test_find" />
@@ -274,20 +274,20 @@
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22875817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" sideWeight="0.49891067" weight="0.32917964" />
-      <window_info anchor="bottom" id="Python Console" sideWeight="0.49891067" weight="0.32917964" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.498366" weight="0.33437175" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.28104576" side_tool="true" visible="true" weight="0.30425754" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.71895427" visible="true" weight="0.30425754" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7184096" visible="true" weight="0.30425754" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49945533" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49945533" weight="0.32917964" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49891067" weight="0.32917964" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.498366" weight="0.33437175" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2815904" side_tool="true" visible="true" weight="0.30425754" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49891067" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,13 +303,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tester.py" />
     <entry file="file://E:/Downloads/word_ladder_test_1.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -327,10 +321,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_final.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://E:/Downloads/test_final (2).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="55" lean-forward="true" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
+        <state relative-caret-position="425">
+          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -339,25 +343,15 @@
     </entry>
     <entry file="file://E:/Downloads/test (1).py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="856">
           <caret line="97" selection-start-line="97" selection-end-line="97" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-799">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_final.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="520">
+          <caret line="141" column="43" selection-start-line="141" selection-start-column="43" selection-end-line="141" selection-end-column="43" />
         </state>
       </provider>
     </entry>
